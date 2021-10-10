@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/icon.png-a2386094a5e4a865768d967c867f168f.stex"
+path="res://.import/modifiers_picture.png-c2a37b14b5f32944f236e0bea7049258.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/godot-level-design-modifiers/icon.png"
-dest_files=[ "res://.import/icon.png-a2386094a5e4a865768d967c867f168f.stex" ]
+source_file="res://addons/godot-level-design-modifiers/modifiers_picture.png"
+dest_files=[ "res://.import/modifiers_picture.png-c2a37b14b5f32944f236e0bea7049258.stex" ]
 
 [params]
 

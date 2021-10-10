@@ -51,6 +51,11 @@ func modify() -> void:
 		# For each node to spawn
 		for node_to_move in get_children():
 			if is_valid_node(node_to_move):
+				# We want to ignore the original translations and rotations
+				# of the node to move
+				node_to_move.translation = Vector3(0,0,0)
+				node_to_move.rotation = Vector3(0,0,0)
+				
 				# Translation
 				var direction:Vector3 = Vector3(cos(angle), 0 ,sin(angle))
 				var position:Vector3 = direction * p_radius
@@ -59,9 +64,6 @@ func modify() -> void:
 				node_to_move.translate(position)
 				
 				# Rotation
-#				node_to_move.rotation_degrees = Vector3(rotation_degrees.x, 
-#						0, rotation_degrees.z)
-
 				if(p_rotate_towards_origin):
 					# look_at() locally
 					var new_rotation:float = (

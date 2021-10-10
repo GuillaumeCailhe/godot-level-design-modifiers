@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/suzanne.gltf-451adb6e2a607ea17b4d412afb707912.scn"
+path="res://.import/suzanne.gltf-d85027593d4ee4153ff0cabb53fbd281.scn"
 
 [deps]
 
-source_file="res://addons/modifiers/demo/resources/suzanne.gltf"
-dest_files=[ "res://.import/suzanne.gltf-451adb6e2a607ea17b4d412afb707912.scn" ]
+source_file="res://addons/godot-level-design-modifiers/demo/resources/suzanne.gltf"
+dest_files=[ "res://.import/suzanne.gltf-d85027593d4ee4153ff0cabb53fbd281.scn" ]
 
 [params]
 
